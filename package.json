@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --output public"
+    "build": "parcel build index.html --output-path public"
   },
   "dependencies": {
     "bundler": "^0.8.0",
