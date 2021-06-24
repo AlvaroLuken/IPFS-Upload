@@ -6,7 +6,12 @@
   "browserslist": [
     "> 5%"
   ],
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
   "dependencies": {
+    "bundler": "^0.8.0",
     "ipfs-http-client": "^46.1.1",
     "parcel-bundler": "^1.12.5"
   }
